@@ -1,0 +1,51 @@
+.header, .footer {
+    background: #1F2937;
+    color: #E5E7EB;
+}
+
+.quote {
+    background: #E5E7EB;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex:1
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    margin: 0px;
+    padding: 8px 0px;
+}
+
+li {
+    display: inline;
+    padding: 8px 0px;
+    margin: 8px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .content {
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    background: grey;
+}
