@@ -1,3 +1,7 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .header, .footer {
     background: #1F2937;
     color: #E5E7EB;
@@ -10,18 +14,24 @@
 body {
     display: flex;
     flex-direction: column;
-    flex:1
+    flex:1;
+    margin: 0;
 }
 
 .header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 0px 16vw;
+    padding-bottom: 110px;
+    margin: 0;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 110px;
+    margin: 0;
 }
 
 ul {
@@ -31,21 +41,70 @@ ul {
 
 li {
     display: inline;
-    padding: 8px 0px;
-    margin: 8px;
+    padding: 0px 8px;
+    margin: 0px 8px;
 }
 
 .hero {
+    padding: 0px 8px;
+    margin: 0px 8px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
 .hero .content {
     display: flex;
     flex-direction: column;
+    height: 300px;
+    padding-right: 50px;
+    justify-content: space-between;
+}
+
+.hero .content h1 {
+    font-size: 4rem;
+    padding: 0;
+    margin: 0;
+}
+
+.hero .content p {
+    padding: 0;
+    margin: 0;
+    font-size: 1.45rem;
 }
 
 .image {
     background: grey;
 }
+
+.logo {
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.image {
+    width: 650px;
+    height: 300px;
+    flex-shrink: 0;
+    align-self: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .content button {
+    width: 140px;
+    height: 35px;
+    background-color: #3882F6;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    border-style: hidden;
+}
+
